@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  tests:
+  test:
     runs-on: ubuntu-latest
     container: golang:1.21.3
     steps:
